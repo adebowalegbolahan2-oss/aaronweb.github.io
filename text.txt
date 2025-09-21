@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aaron Gbolahan</h1>
+        <p>Web Designer & Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Aaron, a passionate web designer and developer. I create modern, responsive websites that look great on any device.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A portfolio website showcasing my design skills.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>An e-commerce website template built with modern design practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:Rodes0438@gmail.com">Rodes0438@gmail.com</a></p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aaron Gbolahan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
